@@ -1,24 +1,49 @@
-Your name
+Mitchell Black
 CSCI-305
 
-10.
+10. Almost every word eventually enters a periodic orbit of common words. For instance, 'you' is the most
+common word to follow 'are', and 'are' is the most common word to follow 'you'. If 'you' appears in a
+song title, then the song title will just loop 'you are' for the rest of the song title. The orbit I
+most often see is the phrase ' a little girl in the world is'. This is probably because this phrase
+contains two of the most common English words: 'is' and 'a'.
 
-14.
+14. Most highly used words appear to be periodic in our mcw iteration. This is because these
+ words are so common that there is a high probability that this word will appear again in its own mcw
+ iteration. Thus, for any starting word, there is a high probability that one of the words in the mcw
+ iteration will be a highly used word, resulting in a periodic orbit.
 
-15.
+15. The only song title I was able to find that terminated was "amore mio babbino caro gianni schicchi." As
+this is a non-English word, then it was able to avoid the orbits of common English words. Most other words
+I tried usually fell into the orbits of 'are' or 'is'. As a significant portion of song titles are
+complete sentences, then it seems improbable that an iteration will avoid these two verbs.
 
-16.
+16. A loop in an iterative process is caused when an input to a function returns itself after some number
+of iterations. Thus, if we can prevent an input from appearing twice during an iteration, then we
+can also prevent loops. This is precisely the fix I implemented for the mcw iteration. For each word we
+are going to add to our song title, we first check if the word already appears in the song title. If it
+does, then we don't add the word and terminate the process as this would start a loop.If not, we add
+the word and continue with the iteration.
 
-19.
+17. 'montana sacra nova scotia'
 
-20.
+18. 'bob marley vs world is my heart'
 
-21.
+19. The song title for the input 'bob' never changes. This is what should be the case. As the most common
+word to follow another word is a property of the unique_track.txt file, and we did not change the file, then
+we should expect different results from the same initial input.
 
-22.
+20. There was a song in the file called 'Horny Computer.' I looked it up. It's terrible.
 
-23.
+21. I like the unless method. It is a lot cleaner than having to tack a ! to the front of your
+expression. I also like not having to use brackets or parentheses. Also much cleaner.
 
-24.
+22. There wasn't much in the documentation to help with the gets method when you also read in a file.
+This took the longest of my problems to resolve. Otherwise, it is hard to find a complaint about ruby.
 
-25.
+23. I did enjoy this lab. It was a pain to have to wait 40 seconds to process the unique_tracks.txt
+file when I was trying to resolve a problem, but otherwise, regular expressions seem like a tool that has been
+missing.
+
+24. Maybe 6
+
+25. I would probably use ruby again. This may lack vision, but it does seem useful for parsing text files.
